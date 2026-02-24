@@ -8,7 +8,6 @@ struct Node {
     struct Node* next;
 };
 
-// Helper function to create nodes
 struct Node* createNode(int val) {
     struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
     newNode->data = val;
